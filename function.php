@@ -1,5 +1,4 @@
 <?php
-/*File realizzato appositamente per il corso di git hub base da Lucio e Mattia*/
 
 /*Addizione*/
 function addizione(n1,n2){
@@ -11,18 +10,5 @@ function sottrazione(n1,n2){
 		return n1-n2;
 }
 
-/*Moltiplicazione*/
-function moltiplicazione(n1,n2){
-		return n1*n2;
-}
 
-/*Divisione*/
-function divisione(n1,n2){
-	if(n2!==0){	
-		return n1*n2;
-	}
-	else {
-		return "false";
-	}
-}	
 ?>
